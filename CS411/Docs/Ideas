@@ -1,0 +1,12 @@
+Idea 1: The perfect travel destination
+  For this idea, we chose to create a website that will help you choose your next travel destination. 
+ The user will create a profile with budget, weather of preference, location (continent/country) and time. 
+ We then will use APIs such as the weather, currency, and flights to compare and contrast different places to find the destination with the desired weather within your budget.
+
+Idea 2: Finding events near you
+  For this idea, we decided to use Google Calendar and another API that will give us a list of events happening near our user. 
+The objective is for the user to receive notifications of events that they might be interested in and that fits their schedule. 
+So for example, if the user inputs that they are interested in food events, they live in Boston, and they have a free block on Friday from 5-10pm, if there's a food truck event at North End at that same time we would send a notification to the user about that event. 
+
+
+

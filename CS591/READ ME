@@ -1,0 +1,11 @@
+READ ME
+
+Final project 591 L1 - Julia Bighetto and Kyle Bryant
+
+HOW TO RUN THE CODE:
+- The main file is called final_project.py.
+- final_project.py reads artist_list.py, alg.py, and scrapereddit.py.
+- alg.py reads dic.py.
+
+For the simplicity of the project, the majority of the data is hard-coded. Just make sure to have the three main files at 
+the same directory to fully run the project. 

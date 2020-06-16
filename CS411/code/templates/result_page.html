@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="result_page.css" rel="stylesheet" type=text/css>
+</head>
+
+
+<body>
+<div class="main">
+<p class="sign" align="center"></p>
+
+  {% for row in data %}
+            {{row[0]}}
+        <ul>
+                {% for element in row[1:] %}
+                    <li>{{element|join(', ')}}<li>
+                {% endfor %}
+        </ul>
+{% endfor %}
+
+<form method="POST" action="/">
+
+    <p class="new_search" href="/info/" align="center">Perform new search</p>
+</form>
+
+
+</div>
+
+</body>
+</html>
